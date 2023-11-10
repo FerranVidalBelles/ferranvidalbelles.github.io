@@ -1,0 +1,36 @@
+#about-me {
+    max-width: 39rem;
+    line-height: 2rem;
+    margin-bottom: 3rem;
+}
+
+#contact {
+    max-width: 39rem;
+    line-height: 2rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+#contact h3 {
+    text-align: center;
+    margin-bottom: -1rem;
+}
+
+#contact ul {
+    padding: 0;
+}
+
+#contact ul li {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+#contact ul li i {
+    font-size: 20px;
+    margin-right: 1rem;
+}
