@@ -1,20 +1,58 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="./styles/template.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <title>Ferran</title>
+    <script src="./js/template.js"></script>
 </head>
+
 <body>
-    <h1>Ferran Vidal</h1>
-    <h2>Software Developer</h2>
-    <h3>About me</h3>
-    <p>My name is Ferran and I am 24.</p>
-    <p>I am a Software developer focused on Back end.</p>
-    <p>My primary goal is to
-    solve complex problems effectively by writing clean and efficient code. I
-    am open to using any tool or language necessary to find the best solution.
-    I have a strong willingness to learn and adapt, and I am committed to
-    continually enhancing my skills</p>
+    <div id="layout">
+        <script type="text/javascript">
+            loadNav([
+                { url: "./pages/projects.html", name: "Projects", blank: false },
+                { url: "./static/cv.pdf", name: "Resume", blank: true },
+            ]);
+        </script>
+
+        <header>
+            <div id="header-profile">
+                <img src="./static/img/ferran.jpg" />
+                <h2>Ferran Vidal</h2>
+                <h3>Software Developer</h3>
+            </div>
+        </header>
+    
+        <main>
+            <h3>About me</h3>
+            <div id="about-me">
+                <p>My name is Ferran and I am 24.</p>
+                <p>I am a Software developer focused on Back end.</p>
+                <p>My primary goal is to
+                solve complex problems effectively by writing clean and efficient code. I
+                am open to using any tool or language necessary to find the best solution.
+                I have a strong willingness to learn and adapt, and I am committed to
+                continually enhancing my skills</p>
+            </div>
+    
+            <div id="contact">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i>Spain</li>
+                    <li><i class="fa-solid fa-envelope"></i>ferranvidaldev@gmail.com</li>
+                    <li><i class="fa-solid fa-language"></i>English / Spanish</li>
+                </ul>
+            </div>
+        </main>
+    </div>
 </body>
+
+<script type="text/javascript">loadFooter()</script>
+
 </html>
